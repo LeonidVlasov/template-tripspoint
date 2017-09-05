@@ -1,1 +1,2 @@
-# template-tripspoint
+# boilerplate
+template for projects
