@@ -1,0 +1,75 @@
+.new-listings__wrapper {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.services {
+	width: 30%;
+	&__header {
+		padding: 2rem 0;
+		font: {
+			family: 'gotham-pro';
+			size: 2.1rem;
+			weight: 600;
+		}	
+	}
+	&__block {
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-end;
+		height: 21rem;
+		width: 100%;
+		margin-bottom: 3rem;
+		padding: 2rem;
+		border-radius: 1rem;
+	}
+}
+
+.block {
+	&__direction {
+		margin: 0.5rem 0;
+		font: {
+			family: 'gotham-pro';
+			size: 1.8rem;
+			weight: 600;
+		}
+		color: #fff;
+	}
+	&--1 {
+		background: url(../images/new-listing/surfman.jpg) no-repeat;
+		background-size: cover;
+	}
+	&--2 {
+		background: url(../images/new-listing/scaletop-man.jpg) no-repeat;
+		background-size: cover;		
+	}
+	&--3 {
+		background: url(../images/new-listing/beforestorm-man.jpg) no-repeat;
+		background-size: cover;
+	}
+	&--4 {
+		background: url(../images/new-listing/woman-meditate-ocean.jpg) no-repeat;
+		background-size: cover;
+	}
+	&--5 {
+		background: url(../images/new-listing/lake-manwatch.jpg) no-repeat;
+		background-size: cover;
+	}
+	&--6 {
+		background: url(../images/new-listing/waterfall-group.jpg) no-repeat;
+		background-size: cover;
+	}
+	&--7 {
+		background: url(../images/new-listing/woman-points.jpg) no-repeat;
+		background-size: cover;
+	}
+	&--8 {
+		background: url(../images/new-listing/desert-manwatch.jpg) no-repeat;
+		background-size: cover;
+	}
+	&--9 {
+		background: url(../images/new-listing/top-group.jpg) no-repeat;
+		background-size: cover;
+	}
+}

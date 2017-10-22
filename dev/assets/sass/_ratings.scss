@@ -1,0 +1,323 @@
+.ratings {
+	background-color: #f8f8f8;
+	&__container {
+		display: flex;
+		justify-content: space-between;
+		height: 100%;
+	}
+	&__best-advice {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		width: 60%;
+		height: 100%;
+	}
+	&__reviews {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		width: 35%;
+	}
+}
+
+
+.large-img {
+	&__top-descr {
+		display: flex;
+		justify-content: space-between;
+		padding: 4rem 7rem 0;
+	}
+	&__bottom-descr {
+		@extend .large-img__top-descr;
+		padding: 0 7rem 4rem;
+
+	}
+	&__dest {
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+	}
+	&__bot-header {
+		display: flex;
+		margin-bottom: 3rem;
+		align-items: center;
+	}
+	&__bot-details {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+	&__shop {
+		padding: 1rem 2rem;
+		border: 0.1rem solid #fff;
+		color: #fff;
+		text-transform: uppercase;
+		font: {
+			family: 'gotham-pro';
+			size: 1.2rem;
+			weight: 300;
+		}	
+	}
+	&__header {
+		font: {
+			family: 'gotham-pro';
+			size: 1.2rem;
+			weight: 300;
+		}
+		text-transform: uppercase;
+	}
+}
+
+.dest {
+	&__link {
+		color: #fff;
+		&:hover {
+			text-decoration: underline;
+		}
+	}
+	&__header {
+		font: {
+			family: 'gotham-pro';
+			size: 2.4rem;
+			weight: 600;
+		}
+		&--shrinked {
+			font: {
+				family: 'gotham-pro';
+				size: 1.8rem;
+				weight: 600;
+			}
+		}
+	}
+	&__word {
+		margin: 0 1rem;
+		font: {
+			family: 'gotham-pro';
+			size: 1.1rem;
+			weight: 300;
+			style: italic;
+		}
+		color:#fff;
+	}
+	&__price {
+		font: {
+			family: 'gotham-pro';
+			size: 1.3rem;
+			weight: 600;
+			style: italic;
+		}
+		color:#fff;
+	}
+	&__place-price{
+		display: flex;
+		align-items: center;
+	}
+}
+
+.price--large {
+	font-size: 1.6rem;
+}
+
+.best-advice {
+	&__large-img {
+		display: flex;
+		flex-direction: column;
+		height: 40rem;
+		justify-content: space-between;
+		background: #bae9f5 url(../images/ratings/meditaing-river.jpg) no-repeat;
+		background-size: cover;
+		color: #fff;
+		border-radius: 1rem;
+		background-blend-mode: multiply;
+	}
+	&__small-img {
+		display: flex;
+		justify-content: space-between;
+		margin-top: 3rem;
+		margin-bottom: 4rem;
+		&--first {
+			height: 25rem;
+			width: 49%;
+			display: flex;
+			flex-direction: column;
+			justify-content: space-between;
+			padding: 3rem;
+			background: #bae9f5 url(../images/ratings/man-hilltop.jpg) no-repeat;
+			background-blend-mode: multiply;
+			background-size: cover;
+			border-radius: 1rem;
+			color: #fff;
+		}
+		&--second {
+			@extend .best-advice__small-img--first;
+			background: #bae9f5 url(../images/ratings/house-china.jpg) no-repeat;
+			background-size: cover;
+		}
+	}
+	&__more-link {
+		padding: 1.5rem 3rem;
+		background-color: #00bcd4;
+		border-radius: 0.2rem;
+		font: {
+			family: 'gotham-pro';
+			size: 1.4rem;
+			weight: 600;
+		}
+		text-transform: uppercase;
+		color: #fff;
+	}
+	&__view-all {
+		margin-left: 3rem;
+		font: {
+			family: 'gotham-pro';
+			size: 1.2rem;
+			weight: 300;
+		}
+		color: #b6b6b6;
+		&:hover {
+			color: #000;
+		}
+	}
+
+}
+
+.small-img {
+	&__top-descr{
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+		}
+	&__header {
+		@extend .large-img__header;
+		font-size: 1rem;	
+	}
+}
+
+.advantages {
+	padding-left: 1.3rem;
+	line-height: 1.5;
+}
+
+.item{
+	&__number {
+		font: {
+			family: 'gotham-pro';
+			size: 1.2rem;
+			weight: 600;
+		}	
+	}
+	&__text {
+		font: {
+			family: 'gotham-pro';
+			size: 1rem;
+			weight: 300;
+		}	
+	}
+}
+
+.reviews {
+	&__slider{
+		height: 100%;
+		display: flex;
+		flex-direction: column;
+		
+	}
+	&__more {
+		display: flex;
+		align-items: center;
+	}
+}
+
+.sitem {
+	margin-bottom: 3rem;
+	border: 0.1rem solid #005096;
+	&__text {
+		padding: 1rem;
+		font: {
+			family: 'gotham-pro';
+			size: 1.2rem;
+			weight: 300;
+		}
+		color: #005096;
+	}
+	&__header {
+		font: {
+			size: 1.5rem;
+			weight: 600;
+		}
+	}
+	&__rate {
+		display: flex;
+		justify-content: space-between;
+		margin: 1rem 0;
+	}
+	&__descr {
+		line-height: 1.5;
+	}
+	&__link {
+		color: #00aeff;
+	}
+	&__user {
+		display: flex;
+		align-items: center;
+		padding: 0.5rem 1rem;
+		background-color: #005096;
+		height: 100%;
+	}
+	&--last {
+		margin-bottom: 0;
+	}
+}
+
+.rate__number {
+	margin-left: 1rem;
+	color: #7c7c7c;
+}
+
+time {
+	color: black;
+}
+
+.fa-star:before {
+	color: #00bcd4;
+}
+
+.fa-2x:before {
+	color: #fff;
+}
+
+.user {
+	&__foto {
+	display: block;
+	height: 7rem;
+	width: 7.2rem;
+	background: url(../images/ratings/user-foto.png);
+	}
+	&__data {
+		height: 7rem;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		padding: 0.2rem 0 0.2rem 2rem;
+		font: {
+			family: 'gotham-pro';
+			size: 1.4rem;
+			weight: 300;
+		}
+	}
+	&__info {
+		color: #fff;
+	}
+	&__name {
+		font-weight: 600;
+	}
+	&__link {
+		color: #00bad4;
+	}
+}
+
+.user-hiden {
+	display: none;
+}
+
+

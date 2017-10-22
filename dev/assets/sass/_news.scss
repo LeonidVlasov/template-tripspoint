@@ -1,0 +1,137 @@
+.news {
+	background-color: #f8f8f8;
+	&__gallery {
+		display: flex;
+		justify-content: space-between;
+		flex-wrap: wrap;
+		width: 100%;
+	}
+	&__link-all {
+		@extend .best-advice__more-link;
+	}
+}
+
+.gallery {
+	&__item {
+		height: 21rem;
+		width: 30%;
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-end;
+		padding: 1rem 2rem;
+		border-radius: 1rem;
+		position: relative;
+		margin-bottom: 3rem;
+	}
+	&__text {
+		width: 70%;
+		font: {
+			family: 'gotham-pro';
+			size: 1.8rem;
+			weight: 600;
+		}
+		line-height: 1.5;
+		color: #fff;
+	}
+	&__hover-inf {
+		position: absolute;
+		top: 0;
+		left: 0;
+		height: 100%;
+		width: 100%;
+		display: none;
+		flex-direction: column;
+		justify-content: space-between;
+		padding: 2rem 8rem 2rem 2rem;
+		background-color: rgba(76,75,75,0.8);
+		border-radius: 1rem;
+		transition: all ease-in 0.5;
+	}
+
+}
+
+.item {
+	&--1 {
+		background: url(../images/news/tajmahal.jpg) no-repeat;
+		background-size: cover;
+		&:hover .hover-inf {
+			display: flex;
+		}
+		&:hover .gallery__text {
+			display: none;
+		}
+	}
+	&--2 {
+		background: url(../images/news/pandas.jpg) no-repeat;
+		background-size: cover;
+		&:hover .hover-inf {
+			display: flex;
+		}
+		&:hover .gallery__text {
+			display: none;
+		}
+	}
+	&--3 {
+		background: url(../images/news/boats.jpg) no-repeat;
+		background-size: cover;
+		&:hover .hover-inf {
+			display: flex;
+		}
+		&:hover .gallery__text {
+			display: none;
+		}
+	}
+	&--4 {
+		background: url(../images/news/yellow-mount.jpg) no-repeat;
+		background-size: cover;
+		&:hover .hover-inf {
+			display: flex;
+		}
+		&:hover .gallery__text {
+			display: none;
+		}
+	}
+	&--5 {
+		background: url(../images/news/kites.jpg) no-repeat;
+		background-size: cover;
+		&:hover .hover-inf {
+			display: flex;
+		}
+		&:hover .gallery__text {
+			display: none;
+		}
+	}
+	&--6 {
+		background: url(../images/news/balloons.jpg) no-repeat;
+		background-size: cover;
+		&:hover .hover-inf {
+			display: flex;
+		}
+		&:hover .gallery__text {
+			display: none;
+		}
+	}
+}
+
+.hover-inf {
+	&__header{
+		width: 70%;
+		font: {
+			family: 'gotham-pro';
+			size: 1.8rem;
+			weight: 600;
+		}
+		line-height: 1.5;
+		color: #fff;
+	}
+	&__text {
+		font: {
+			family: 'gotham-pro';
+			size: 1rem;
+			weight: 300;
+		}
+		color: #fff;
+		line-height: 1.8;
+	}
+}
+

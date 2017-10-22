@@ -1,0 +1,34 @@
+.bottom {
+	padding: 5rem;
+	display:flex;
+	justify-content: space-between;
+	background-color: #f0f0f0;
+	&__header {
+		font: {
+			family: 'gotham-pro';
+			size: 1.6rem;
+			weight: 600;
+		}
+		text-transform: uppercase;
+		padding-bottom: 2rem;
+		&--last {
+			margin-top: 5rem;
+		}
+	}
+	&__column {
+		width: 15%;
+	}
+	&__nav {
+		list-style: none;
+		padding-bottom: 2rem;
+		&-link {
+			display: block;
+			font: {
+			family: 'gotham-pro';
+			size: 1.4rem;
+			weight: 300;
+			}
+			margin-top: 2rem;
+		}
+	}
+}

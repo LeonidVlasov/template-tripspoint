@@ -1,0 +1,34 @@
+html {
+  font-size: 62.5%;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.wrapper {
+	font-family: 'gotham-pro';
+}
+
+.stand-width {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	padding: 0 5rem 5rem;
+}
+
+.section__header {
+	font: {
+		famiy: $base_font;
+		weight: 900;
+		size: 3rem;
+	}
+	text-transform: uppercase;
+	color: #005096;
+}
+
+h2 {
+	padding: 3rem 0;
+}

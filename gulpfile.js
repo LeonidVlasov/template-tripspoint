@@ -12,7 +12,8 @@ var output = './dev/';
 gulp.task('html', function () {
     return gulp.src('./dev/templates/*.html')
         .pipe(rigger())
-        .pipe(gulp.dest(output));
+        .pipe(gulp.dest(output))
+        .pipe(browserSync.reload({stream:true}));
 });
 
 gulp.task('sass', () => {

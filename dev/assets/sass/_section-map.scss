@@ -1,0 +1,14 @@
+.map {
+	position: relative;
+	&__inf {
+		width: 61%;
+		text-align: center;
+		font: {
+			family: $base_font;
+			weight: 300;
+			size: 1.4rem;
+		}
+		color: #929292;
+		line-height: 150%;
+	}
+}
