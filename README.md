@@ -1,2 +1,2 @@
-# boilerplate
-template for projects
+[Tripspoint](https://leonidvlasov.github.io/template-tripspoint/)
+
