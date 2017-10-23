@@ -1,2 +1,2 @@
-[Tripspoint](https://leonidvlasov.github.io/template-tripspoint/)
+[Tripspoint](https://leonidvlasov.github.io/template-tripspoint/dev/)
 
